@@ -1,6 +1,6 @@
 # Deploy an HTTP Server to Heroku
 
-## In 5 easy steps
+## In 9 easy steps
 
 1. Go to [DashBoard](https://dashboard.heroku.com/apps) and under _New_ click _Create new app_ under
 
@@ -25,10 +25,18 @@
 ![BUILDPACK](./assets/BUILDPACK.png)
 ![CHOOSE_NODEJS](./assets/CHOOSE_NODEJS.png)
 
-6. Open _View logs_ in _More_ so we can view the build of our app in the Heroku terminal and catch any potential errors
+6. Open _View logs_ in _More_ so we can view the build of our app in the Heroku terminal and catch any potential errors (keep this tab open for the following steps)
 
 ![VIEW_LOGS](./assets/VIEW_LOGS.png)
 
-7. Go to the Github repo on your local computer. Now when you add, commit, and push we should see a new build begin in the Heroku terminal (it might take a few seconds to get started).
+7. Go to the Github repo on your local computer. Ensure that (1) you have a package.json file, and (2) node is running your server file in the _scripts_ portion of the package.json. You may have to add a start script yourself:
 
+![SCRIPTS](./assets/SCRIPTS_START.png)
 
+8. Now when you add, commit, and push we should see a new build begin in the Heroku terminal (it might take a few seconds to get started).
+
+![APPLICATION_LOGS](./assets/APPLICATION_LOGS.png)
+
+9. Go to your Heroku app (you can click _Open app_) and profit!
+
+![HEROKU_SUCCESS](./assets/HEROKU_SUCCESS.png)
