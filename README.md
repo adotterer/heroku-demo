@@ -33,7 +33,7 @@
 
 ![SCRIPTS](./assets/SCRIPTS_START.png)
 
-8. Now when you add, commit, and push to your Github repo you should see a new build begin in the Heroku terminal (it might take a few seconds to get started). Any potential errors will be in this terminal.
+8. Now when you add, commit, and push to your Github repo, you should see a new build begin in the Heroku terminal (it might take a few seconds to get started). Any potential errors will be in this terminal.
 
 ![APPLICATION_LOGS](./assets/APPLICATION_LOGS.png)
 
