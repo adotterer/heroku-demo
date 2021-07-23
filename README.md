@@ -2,7 +2,7 @@
 
 ## In 9 easy steps
 
-1. Go to [DashBoard](https://dashboard.heroku.com/apps) and under _New_ click _Create new app_ under
+1. Go to [DashBoard](https://dashboard.heroku.com/apps) and under _New_ click _Create new app_ under _New_
 
 ![CREATE_NEW_APP](./assets/CREATE_NEW_APP.png)
 
@@ -10,7 +10,7 @@
 
 ![CREATE_NEW_APP](./assets/NAME_APP.png)
 
-3. Under the _Deploy_ tab (should be redirected automatically here) choose GitHub and connect to your repo on Github you want to
+3. Under the _Deploy_ tab (should be redirected here) choose GitHub and connect your repo.
 
    <span style="color:red">**_WARNING_** DO NOT CHOOSE AN APP WITH A DATABASE</span>
 
@@ -33,7 +33,7 @@
 
 ![SCRIPTS](./assets/SCRIPTS_START.png)
 
-8. Now when you add, commit, and push we should see a new build begin in the Heroku terminal (it might take a few seconds to get started).
+8. Now when you add, commit, and push to your Github repo you should see a new build begin in the Heroku terminal (it might take a few seconds to get started). Any potential errors will be in this terminal.
 
 ![APPLICATION_LOGS](./assets/APPLICATION_LOGS.png)
 
