@@ -3,12 +3,13 @@ const fs = require("fs");
 
 const server = http.createServer((req, res) => {
   console.log("METHOD:", req.method, "\nURL:", req.url);
+  const html = fs.readFileSync("./views/index.html");
   if (req.method === "GET" && req.url === "/") {
-    const html = fs.readFileSync("./views/index.html");
     res.statusCode = 200;
     res.setHeader("Content-Type", "text/html");
-    res.end(html);
+    return res.end(html);
   }
+  return res.end(html);
 });
 
 const port = process.env.PORT || 3000;

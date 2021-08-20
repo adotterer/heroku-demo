@@ -1,7 +1,7 @@
 {
   "name": "heroku-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "## In 9 easy steps",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,14 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/adotterer/heroku-demo.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/adotterer/heroku-demo/issues"
   },
-  "homepage": "https://github.com/adotterer/heroku-demo#readme",
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "http": "^0.0.1-security"
-  }
+  "homepage": "https://github.com/adotterer/heroku-demo#readme"
 }
