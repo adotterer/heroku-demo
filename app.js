@@ -9,6 +9,12 @@ const server = http.createServer((req, res) => {
     res.setHeader("Content-Type", "text/html");
     return res.end(html);
   }
+  if (req.method === "GET" && req.url === "/css-curriculum-example") {
+    const cssPage = fs.readFileSync("./views/examples.html");
+    res.statusCode = 200;
+    res.setHeader("Content-Type", "text/html");
+    return res.end(cssPage);
+  }
   return res.end(html);
 });
 
